@@ -5,17 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="stiil.css">
 </head>
+
+
 <body>
+
+    <img
+src="https://styles.redditmedia.com/t5_cj9xx/styles/
+profileIcon_50zbevigxb931.jpg?width=256&height=256&crop=256:256,
+smart&s=de600e24f8b2d3e607e7b10f512bff60a01e7f14"<br>
+
     <h1>Login</h1>
     <form>
-        <label>Kasutaja</label><br>
+        <label>Kasutaja:</label>
         <input type="text"><br>
-        <label>Nimi</label><br>
+        <label>Nimi:</label>
         <input type="text"><br>
-        <label for="lname">Salasõna</label><br>
+        <label for="lname">Salasõna:</label>
+        <input type="password"><br>
+        <label for="lname">Salasõna teist korda:</label>
         <input type="text"><br>
-        <input type="submit" value="password">
+        <br>
+
+        <form action="/Personal_info.php"></form>
+        <input type="checkbox" id="Endainfo" name="Endainfo" value="info">
+        <label for="Endainfo"> Olen nõus enda infot saatma.</label><br>
+        <br>
+
+             <form action="/Puuviljad.php">
+          <label for="sugu">Missugused puuviljad sulle maitsevad:</label>
+          <select name="puuvili" id="puuvili">
+            <option value="kirsid">Kirsid</option>
+            <option value="ploomid">Ploomid</option>
+            <option value="apelsinid">Apelsinid</option>
+            <option value="õunad">Õunad</option>
+
+          </select>
+          <br><br>
+
+        <input type="submit" value="submit">
+      
+
+</form>
         
     </form>
 </body>
