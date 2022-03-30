@@ -1,0 +1,63 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(248, 245, 63);
+    padding: 10px 100px ;
+    
+}
+
+nav {
+    display: flex;
+    background-color: rgb(7, 7, 7);
+    justify-content: center;
+}
+
+nav > ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav > ul > li > a {
+    margin-right: 10px;
+    color: rgb(233, 198, 146);
+}
+
+main {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    display: flex;
+    background-color: blanchedalmond;
+}
+
+main > section{
+    width: 60%;
+    padding: 10px 30px 20px;
+}
+
+main > aside {
+    margin: auto;
+}
+
+main > aside > a > img {
+    width: 300px;
+}
+
+footer {
+    background-color: rgb(182, 182, 180);
+    height: 50px;
+    padding: 20px;
+}
+
+footer > .alumine-nav {
+        background-color: rgb(182, 182, 180);
+    justify-content: start;
+}
+
+footer > .alumine-nav > ul {
+    padding: 0;
+}
+
+footer > .alumine-nav a {
+    color: black;
+}
