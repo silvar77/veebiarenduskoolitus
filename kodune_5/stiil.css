@@ -1,0 +1,64 @@
+body {
+    background: url("https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/292620/e4862e05eebc6b19e744e32a5b5ff5966de37d7d.jpg")
+    no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Amarante', cursive;
+    font-family: 'Fondamento', cursive;
+    font-family: 'UnifrakturCook', cursive;
+}  
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(7, 3, 27, 0.795);
+    }
+
+main {
+    display: flex;    
+}
+
+section{
+    width: 60%;
+    padding: 10px 30px 20px;
+    border: 5px;
+    border-color: rgb(7, 83, 51);
+    border-style: double;
+    background-color: rgba(229, 227, 227, 0.7);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+main {
+    margin: auto;
+}
+
+@media screen and (max-width: 1007px) {
+    .tablet {
+        display: block;
+    }
+    .lai, .mobiil {
+        display: none;
+    }
+    
+    .blokk {
+        width: 50%;      
+    }    
+}
+@media screen and (max-width: 640px) {
+    .mobiil  {
+        display: block;
+    }
+    .lai,
+    .tablet {
+        display: none ;
+    }
+    
+    .blokk {
+        width: 100%;      
+    }    
+}
+
+
+
+
