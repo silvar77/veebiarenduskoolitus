@@ -6,15 +6,15 @@ while (kasutajaNimi == '' || kasutajaNimi == null) {
 let nimi = kasutajaNimi;
 
 if 
-(nimi.length() < 6) {
+(nimi.length < 6) {
     komplimendiElement = 'Küll sul on lühike nimi';
 }
     
 else {
-    komplimendiElement = 'küll sul on pikk nimi'; 
+    komplimendiElement = 'Küll sul on pikk nimi'; 
 }
 
-document.getElementById('nimepikkus').innerHTML = nimepikkus;
+document.getElementById('nimepikkus').innerHTML = komplimendiElement;
 
 
 
