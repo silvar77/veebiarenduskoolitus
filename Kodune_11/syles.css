@@ -1,0 +1,132 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    
+}
+
+.pais-sektsioon {
+    background-image: url("assets/maed.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    padding: 37px 72px 142px;
+    margin-bottom: 100px;
+}
+
+.pais-vasak {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo-pealkiri{
+    font-size: 33px;
+    font-weight: 800;
+    color: #0B0B0B;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+
+.pais {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pais > nav {
+    display: flex;
+    align-items: center ;
+}
+
+.pais > nav > a {
+    margin-left: 50px;
+    color: #000;
+    letter-spacing: 2.67px;
+    font-size: 16.67px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.sisu {
+    margin-top: 231.16px;
+    font-weight: 800;
+    position: relative;
+}
+
+.sisu > h1, .sisu > h2, .sisu > h4 {
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #0B0B0B;
+}
+
+.sisu > h2 {
+    font-size: 39.57px;
+}
+
+.sisu > h1 {
+    font-size: 74.39px;
+}
+
+.sisu > h4 {
+    font-size: 20.83px;
+    width: 477px;
+    line-height: 29.17px;
+}
+
+.pildistajanaine {
+    width: 900px;
+    height: 900px;
+    background-image: url("./assets/pildistajanaine.png");
+    background-size: cover;
+    border-radius: 457px;
+    display: block;
+    background-position: center;
+    position: absolute;
+    top: -200px;
+    right: -350px;
+    z-index: 1;
+}
+
+.vari2 {
+    width: 756px;
+    height: 89px;
+    background-image: url("./assets/vari2.png");
+    background-size: cover;
+    display: block;
+    background-position: center;
+    position: absolute;
+    right: -280px;
+    bottom: -280px;    
+}
+
+.liblikas3 {
+    width: 60px;
+    height: 32px;
+    background-image: url("./assets/liblikas3.png");
+    background-size: cover;
+    display: block;
+    background-position: center;
+    position: absolute;
+    top: 65px;
+    left: -40px;
+    z-index: 1;    
+}
+
+.liblikas4 {
+    width: 75.27px;
+    height: 66.04px;
+    background-image: url("./assets/liblikas4.png");
+    background-size: cover;
+    display: block;
+    background-position: center;
+    position: absolute;
+    top: -40px;
+    left: 500px;
+    z-index: 1;    
+}
+
+
+
+
+
